@@ -28,5 +28,10 @@ int main()
     Elek.printData();
     cout << endl;
 
-   
+    Barang nonEl;
+    nonEl.nama = "Karpet";
+    nonEl.jumlah = 20;
+    nonEl.kategori = "Non elektronik";
+    nonEl.tanggalProduksi = "2024-5-4";
+    nonEl.printData();
 }
